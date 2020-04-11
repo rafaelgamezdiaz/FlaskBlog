@@ -1,0 +1,15 @@
+{% extends 'template.html' %}
+
+{% block head %}
+    <title>Homepage</title>
+{% endblock %}
+
+{% block body %}
+    <div class="jumbotron">
+        <h1 class="display-4">Learning Flask Example Page</h1>
+        <p class="lead">Created using Flask Microframework (Python).</p>
+        <hr class="my-4">
+        <p>The database was created with SQLlite, and Front with Bootstrap.</p>
+        <a class="btn btn-primary btn-lg" href="/posts" role="button">Go to Posts CRUD</a>
+    </div>
+{% endblock %}
